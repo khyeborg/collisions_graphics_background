@@ -15,6 +15,7 @@ let points = 0;
 // graphics 
 let clefairy;
 let togepi;
+let backdrop;
 
 function setup() {
     createCanvas(500, 500);
@@ -31,6 +32,7 @@ function setup() {
     // load images
     clefairy = loadImage("clefairy.png");
     togepi = loadImage("togepi.png");
+    backdrop = loadImage("forest.png");
 }
 
 function draw() {
